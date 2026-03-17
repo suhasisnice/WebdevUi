@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UI Designer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cursor-glow"></div>
+
+<!-- NAV -->
+<nav class="navbar">
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">UI Designer Portfolio</div>
+  <h1 class="hero-3d-title">
+    <span class="title-line" data-text="Portfolio of a">Portfolio of a</span>
+    <span class="title-line accent-line" data-text="UI Designer">UI Designer</span>
+  </h1>
+  <p>Crafting beautiful, intuitive interfaces with motion, depth, and glass.</p>
+  <a href="#about" class="hero-cta ripple-btn" id="explore-btn">Explore System ↓</a>
+</section>
+
+<div class="divider"></div>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="about-grid">
+    <div class="about-text">
+      <div class="section-label">Who We Are</div>
+      <h2 class="section-title">Crafting interfaces<br>that feel alive.</h2>
+      <p class="about-body">We're a small team of frontend obsessives who believe the web should feel as good as it looks. Every pixel, every transition, every blur — intentional.</p>
+      <p class="about-body">Our toolkit is the result of years of experimenting with motion, depth, and material design. We build components that don't just work — they resonate.</p>
+      <div class="about-stats">
+        <div class="stat">
+          <span class="stat-num">3+</span>
+          <span class="stat-label">Years building</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">40+</span>
+          <span class="stat-label">Components shipped</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">12</span>
+          <span class="stat-label">Projects launched</span>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual">
+      <div class="about-card glass-card">
+        <div class="about-card-icon">⬡</div>
+        <h4>Motion First</h4>
+        <p>Every component is designed with animation as a core feature, not an afterthought.</p>
+      </div>
+      <div class="about-card glass-card" style="margin-top: 24px; margin-left: 40px;">
+        <div class="about-card-icon">◎</div>
+        <h4>Glass Aesthetic</h4>
+        <p>Frosted, layered, and luminous. We push CSS and WebGL to their limits.</p>
+      </div>
+      <div class="about-card glass-card" style="margin-top: 24px;">
+        <div class="about-card-icon">✦</div>
+        <h4>Open System</h4>
+        <p>Modular by design. Drop any piece into your stack and it just works.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTACT -->
+<section class="section" id="contact" style="text-align:center;">
+  <div class="section-label">Get In Touch</div>
+  <h2 class="section-title contact-title">
+    <span class="word-wrap"><span class="word">Let's</span></span>
+    <span class="word-wrap"><span class="word gradient-word">build</span></span>
+    <span class="word-wrap"><span class="word">something</span></span>
+    <span class="word-wrap"><span class="word gradient-word2">together.</span></span>
+  </h2>
+  <p class="section-sub contact-sub" style="margin: 0 auto 60px;">Have a project in mind? We'd love to hear about it. Drop us a message and we'll get back to you within 24 hours.</p>
+
+  <form class="contact-form" onsubmit="return false;">
+    <div class="form-row">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" placeholder="Your name" />
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" placeholder="your@email.com" />
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Subject</label>
+      <input type="text" placeholder="What's this about?" />
+    </div>
+    <div class="form-group">
+      <label>Message</label>
+      <textarea rows="5" placeholder="Tell us about your project..."></textarea>
+    </div>
+    <button type="submit" class="hero-cta" style="margin-top:8px;">Send Message →</button>
+  </form>
+</section>
+
+<div class="divider"></div>
+
+<!-- TEAM -->
+<section class="section" id="team" style="text-align:center;">
+  <div class="section-label">The People</div>
+  <h2 class="section-title">Meet Our Team</h2>
+  <p class="section-sub" style="margin:0 auto 60px;">Hover a card to flip it.</p>
+
+  <div class="team-grid">
+    <div class="team-card tilt">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="avatar" style="background-image:url('https://randomuser.me/api/portraits/men/32.jpg')"></div>
+          <h3>Irfan</h3>
+          <p>UI / CSS</p>
+        </div>
+        <div class="card-back">
+          <p>Glass UI Specialist</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-card tilt">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="avatar" style="background-image:url('https://randomuser.me/api/portraits/men/44.jpg')"></div>
+          <h3>Suhas</h3>
+          <p>JavaScript</p>
+        </div>
+        <div class="card-back">
+          <p>Logic + Effects</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-card tilt">
+      <div class="card-inner">
+        <div class="card-front">
+          <div class="avatar" style="background-image:url('https://randomuser.me/api/portraits/men/67.jpg')"></div>
+          <h3>Manvil</h3>
+          <p>HTML</p>
+        </div>
+        <div class="card-back">
+          <p>Structure</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- GLOBE -->
+<section class="earth-section" id="globe-section">
+  <div class="section-label">Global Reach</div>
+  <h2 class="section-title">Where We Work</h2>
+  <p class="section-sub" style="margin:0 auto;">Building from anywhere on the planet.</p>
+
+  <div class="globe-wrapper">
+    <div class="globe-ring"></div>
+    <div class="globe-ring"></div>
+    <div class="globe-glow"></div>
+    <canvas id="globe"></canvas>
+    <div class="karnataka-pin">
+      <div class="pin-dot"></div>
+      <div class="pin-label">Karnataka, India</div>
+    </div>
+  </div>
+  <p class="location-text">Drag to rotate · Auto-zooms to Karnataka</p>
+</section>
+
+<footer class="footer">
+  <p>© 2026 UI Designer Portfolio. Built with glass.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
